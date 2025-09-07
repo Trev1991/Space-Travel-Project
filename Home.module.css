@@ -1,0 +1,31 @@
+.home {
+    display: grid;
+    gap: 1rem;
+}
+
+.home__title {
+    margin: 0;
+    color: var(--text-strong);
+}
+
+.home__lead {
+    color: var(--text-strong);
+    font-weight: 600;
+    letter-spacing: .2px;
+}
+
+.home__nav {
+    display: flex;
+    gap: 1rem;
+}
+
+.home__link {
+    padding: .5rem .75rem;
+    border: 1px solid #ccd3;
+    border-radius: .5rem;
+    text-decoration: none;
+}
+
+.home__link:hover {
+    background: #f6f8ff20;
+}
