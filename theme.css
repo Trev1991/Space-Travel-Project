@@ -1,0 +1,47 @@
+:root {
+    /* palette */
+    --bg: #0b1020;
+    --surface: #0f172a;
+    --surface-2: #111a2b;
+
+    /* brighter text tokens */
+    --text: #eef3ff;
+    /* default body text */
+    --text-strong: #f8fbff;
+    /* headings / taglines */
+    --muted: #c7d2e8;
+    /* secondary text */
+    --muted-strong: #dee6f7;
+    /* tiny/meta UI text */
+
+    /* accent */
+    --accent: #8aa8ff;
+
+    /* layout */
+    --radius: 14px;
+    --shadow: 0 8px 24px rgb(0 0 0 / 0.35);
+
+    /* type scale */
+    --step--1: clamp(.85rem, 0.78rem + 0.3vw, 1rem);
+    --step-0: clamp(1rem, 0.95rem + 0.4vw, 1.125rem);
+    --step-1: clamp(1.25rem, 1.1rem + 1vw, 1.5rem);
+    --step-2: clamp(1.6rem, 1.3rem + 1.6vw, 2rem);
+    --step-3: clamp(2.2rem, 1.8rem + 2.2vw, 2.8rem);
+
+    color-scheme: light dark;
+}
+
+/* Light preference */
+@media (prefers-color-scheme: light) {
+    :root {
+        --bg: #f7f9fc;
+        --surface: #ffffff;
+        --surface-2: #f3f6ff;
+        --text: #101828;
+        --text-strong: #0b1220;
+        --muted: #475467;
+        --muted-strong: #344054;
+        --accent: #3654ff;
+        --shadow: 0 6px 18px rgb(2 6 23 / 0.1);
+    }
+}
